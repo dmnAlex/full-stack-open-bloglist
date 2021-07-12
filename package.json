@@ -30,6 +30,7 @@
     "mongoose-unique-validator": "^2.0.3"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": ["/client/", "/node_modules/"]
   }
 }
